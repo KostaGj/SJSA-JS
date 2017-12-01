@@ -1,0 +1,48 @@
+<html>
+        <head>
+            <title></title>
+            <script>
+                
+                function countBs(string){
+                    var str = string;
+                    var n = str.length;
+                    var i = 0
+                    var nth = 0;
+                    while(i <= n){
+                        if(string.charAt(i) == "B"){
+                            nth += 1;
+                            
+
+                        }
+                        i++
+                    }
+                    
+                    return nth;
+                };
+                function countChar(string,char){
+                    var str = string; 
+                    var n = str.length;
+                    var m = char;
+                    var i = 0
+                    var nth = 0;
+                    while(i <= n){
+                        if(string.charAt(i) == char){
+                            nth += 1;
+                            
+
+                        }
+                        i++
+                    }
+                    
+                    return nth;
+                };
+                console.log(countBs("BBCB2BB"));
+        
+                console.log(countChar("banana", "a"));
+                
+            </script>
+        </head>
+        <body>
+            
+        </body>
+    </html>
